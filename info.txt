@@ -37,7 +37,8 @@ Code construction order:
 	4. build top module and repeat 2-3.
 	
 Attached to this file:
- 1. All the modules+testbenches+waveforms in separate folders.
+ 1. All the modules+testbenches+waveforms in separate folders(instruction memory(directory name: "im"), register file(directory name: "rf"), 
+	   ALU(directory name: "alu"), Data memory(directory name: "dm"), controller(directory name: "ctrl")).
  2. mips architecture picture.
  3. A picture of the waveform of the top testbench to show correctness of the code (the signals in the picture are seperated by dividers 
 	to  distinguish between signals of each internal module and top module)
