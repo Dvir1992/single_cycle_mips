@@ -1,0 +1,53 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -divider clk&reset
+add wave -noupdate /tb/t/reset
+add wave -noupdate /tb/t/clk
+add wave -noupdate -divider {instruction memory phase}
+add wave -noupdate -radix unsigned /tb/t/pc
+add wave -noupdate -radix unsigned /tb/pc_before
+add wave -noupdate /tb/t/inst_out
+add wave -noupdate /tb/t/pcsrc
+add wave -noupdate -divider {register file phase}
+add wave -noupdate -radix unsigned /tb/t/r_f/read_reg1
+add wave -noupdate /tb/t/regdst
+add wave -noupdate -radix unsigned /tb/t/r_f/read_reg2
+add wave -noupdate -radix unsigned /tb/t/r_f/write_reg
+add wave -noupdate -radix decimal /tb/t/r_f/read_data1
+add wave -noupdate -radix decimal /tb/t/r_f/read_data2
+add wave -noupdate -radix decimal /tb/t/sign_extend_out
+add wave -noupdate /tb/t/r_f/reg_write
+add wave -noupdate -radix unsigned /tb/t/r_f/write_data
+add wave -noupdate -radix decimal -childformat {{{/tb/t/r_f/regs[31]} -radix decimal} {{/tb/t/r_f/regs[30]} -radix decimal} {{/tb/t/r_f/regs[29]} -radix decimal} {{/tb/t/r_f/regs[28]} -radix decimal} {{/tb/t/r_f/regs[27]} -radix decimal} {{/tb/t/r_f/regs[26]} -radix decimal} {{/tb/t/r_f/regs[25]} -radix decimal} {{/tb/t/r_f/regs[24]} -radix decimal} {{/tb/t/r_f/regs[23]} -radix decimal} {{/tb/t/r_f/regs[22]} -radix decimal} {{/tb/t/r_f/regs[21]} -radix decimal} {{/tb/t/r_f/regs[20]} -radix decimal} {{/tb/t/r_f/regs[19]} -radix decimal} {{/tb/t/r_f/regs[18]} -radix decimal} {{/tb/t/r_f/regs[17]} -radix decimal} {{/tb/t/r_f/regs[16]} -radix decimal} {{/tb/t/r_f/regs[15]} -radix decimal} {{/tb/t/r_f/regs[14]} -radix decimal} {{/tb/t/r_f/regs[13]} -radix decimal} {{/tb/t/r_f/regs[12]} -radix decimal} {{/tb/t/r_f/regs[11]} -radix decimal} {{/tb/t/r_f/regs[10]} -radix decimal} {{/tb/t/r_f/regs[9]} -radix decimal} {{/tb/t/r_f/regs[8]} -radix decimal} {{/tb/t/r_f/regs[7]} -radix decimal} {{/tb/t/r_f/regs[6]} -radix decimal} {{/tb/t/r_f/regs[5]} -radix decimal} {{/tb/t/r_f/regs[4]} -radix decimal} {{/tb/t/r_f/regs[3]} -radix decimal} {{/tb/t/r_f/regs[2]} -radix decimal} {{/tb/t/r_f/regs[1]} -radix decimal} {{/tb/t/r_f/regs[0]} -radix decimal}} -subitemconfig {{/tb/t/r_f/regs[31]} {-height 15 -radix decimal} {/tb/t/r_f/regs[30]} {-height 15 -radix decimal} {/tb/t/r_f/regs[29]} {-height 15 -radix decimal} {/tb/t/r_f/regs[28]} {-height 15 -radix decimal} {/tb/t/r_f/regs[27]} {-height 15 -radix decimal} {/tb/t/r_f/regs[26]} {-height 15 -radix decimal} {/tb/t/r_f/regs[25]} {-height 15 -radix decimal} {/tb/t/r_f/regs[24]} {-height 15 -radix decimal} {/tb/t/r_f/regs[23]} {-height 15 -radix decimal} {/tb/t/r_f/regs[22]} {-height 15 -radix decimal} {/tb/t/r_f/regs[21]} {-height 15 -radix decimal} {/tb/t/r_f/regs[20]} {-height 15 -radix decimal} {/tb/t/r_f/regs[19]} {-height 15 -radix decimal} {/tb/t/r_f/regs[18]} {-height 15 -radix decimal} {/tb/t/r_f/regs[17]} {-height 15 -radix decimal} {/tb/t/r_f/regs[16]} {-height 15 -radix decimal} {/tb/t/r_f/regs[15]} {-height 15 -radix decimal} {/tb/t/r_f/regs[14]} {-height 15 -radix decimal} {/tb/t/r_f/regs[13]} {-height 15 -radix decimal} {/tb/t/r_f/regs[12]} {-height 15 -radix decimal} {/tb/t/r_f/regs[11]} {-height 15 -radix decimal} {/tb/t/r_f/regs[10]} {-height 15 -radix decimal} {/tb/t/r_f/regs[9]} {-height 15 -radix decimal} {/tb/t/r_f/regs[8]} {-height 15 -radix decimal} {/tb/t/r_f/regs[7]} {-height 15 -radix decimal} {/tb/t/r_f/regs[6]} {-height 15 -radix decimal} {/tb/t/r_f/regs[5]} {-height 15 -radix decimal} {/tb/t/r_f/regs[4]} {-height 15 -radix decimal} {/tb/t/r_f/regs[3]} {-height 15 -radix decimal} {/tb/t/r_f/regs[2]} {-height 15 -radix decimal} {/tb/t/r_f/regs[1]} {-height 15 -radix decimal} {/tb/t/r_f/regs[0]} {-height 15 -radix decimal}} /tb/t/r_f/regs
+add wave -noupdate -divider {alu phase}
+add wave -noupdate /tb/t/alusrc
+add wave -noupdate /tb/t/aluop
+add wave -noupdate -radix decimal /tb/t/r_f/read_data1
+add wave -noupdate -radix decimal /tb/t/data2
+add wave -noupdate -radix decimal /tb/t/result
+add wave -noupdate -divider {data memory ohase}
+add wave -noupdate /tb/t/d/read_adr
+add wave -noupdate /tb/t/d/write_adr
+add wave -noupdate /tb/t/d/write_data
+add wave -noupdate /tb/t/memwrite
+add wave -noupdate /tb/t/memread
+add wave -noupdate /tb/t/d/read_data
+add wave -noupdate -childformat {{{/tb/t/d/mem[8]} -radix decimal}} -subitemconfig {{/tb/t/d/mem[8]} {-height 15 -radix decimal}} /tb/t/d/mem
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {240 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 150
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ps
+update
+WaveRestoreZoom {0 ps} {462 ps}

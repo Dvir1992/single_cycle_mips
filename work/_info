@@ -1,0 +1,287 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+valu
+Z0 !s110 1697429189
+!i10b 1
+!s100 SC]LaY:h:dd``ogU=Wd]:3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAl_a:<6PBI<YU5nkNg65G3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips
+w1696813649
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/alu.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/alu.v
+!i122 1437
+L0 7 40
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1697429189.000000
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/alu.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vctrl
+Z8 !s110 1697429190
+!i10b 1
+!s100 ;G>HAeSH64?4bCSQo0Rk81
+R1
+IiIhKOUeKDBM:Y]CPgHYa63
+R2
+R3
+w1697403808
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/ctrl.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/ctrl.v
+!i122 1441
+L0 7 105
+R4
+r1
+!s85 0
+31
+Z9 !s108 1697429190.000000
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/ctrl.v|
+!i113 1
+R6
+R7
+vdata_memory
+R8
+!i10b 1
+!s100 a8^WL6Oe;UzfgAG?loiGO1
+R1
+IOb;AjZFaQJOGc>k@AOkNV0
+R2
+R3
+w1696824060
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/dm.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/dm.v
+!i122 1439
+L0 7 52
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/dm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/dm.v|
+!i113 1
+R6
+R7
+vinstruction_memory
+R0
+!i10b 1
+!s100 ibPD5cnZETCh3ZUgR10?61
+R1
+IGJX[TCe>LGY08dZEg[JXi0
+R2
+R3
+w1697415438
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/im.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/im.v
+!i122 1433
+L0 7 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/im.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/im.v|
+!i113 1
+R6
+R7
+vregister_file
+R0
+!i10b 1
+!s100 >5Rz1A?Pzd7N7EMikW0WX3
+R1
+Ihm^SLGZI??g3W4Rm;b7:^2
+R2
+R3
+w1696819096
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/rf.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/rf.v
+!i122 1435
+L0 7 51
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/rf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/rf.v|
+!i113 1
+R6
+R7
+vtb
+R8
+!i10b 1
+!s100 03P9mB>Vi?KJId5I4Ib;h2
+R1
+I0744`eoV9ZzhLOJLY2;dg2
+R2
+R3
+w1697422152
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/tb.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/tb.v
+!i122 1444
+L0 1 176
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/tb.v|
+!i113 1
+R6
+R7
+vtb_alu
+R0
+!i10b 1
+!s100 5MJZXZ05X_44^ff:NzHY;1
+R1
+IWhZ9[T?F4?R@K9THo5@Vd1
+R2
+R3
+w1696812411
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/tb.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/tb.v
+!i122 1438
+L0 1 80
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/alu/tb.v|
+!i113 1
+R6
+R7
+vtb_ctrl
+R8
+!i10b 1
+!s100 <aRmV@eUGK@Wzo9F^DzNA3
+R1
+ITJ]]FVZ]06GgAVNF5Y]ae0
+R2
+R3
+w1696995671
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/tb.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/tb.v
+!i122 1442
+L0 1 144
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/ctrl/tb.v|
+!i113 1
+R6
+R7
+vtb_dm
+R8
+!i10b 1
+!s100 oKJ;W_2BlHMBkZN;ZXeZ[0
+R1
+IT;RFme;df1=?S?0I8YdcX1
+R2
+R3
+w1696823719
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/tb.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/tb.v
+!i122 1440
+L0 1 79
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/dm/tb.v|
+!i113 1
+R6
+R7
+vtb_im
+R0
+!i10b 1
+!s100 <k]CB=FmGHM@DB<Y<n17n0
+R1
+I5nHkB9CLWdKUGz@Og^Uf:1
+R2
+R3
+w1696740834
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/tb.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/tb.v
+!i122 1434
+L0 1 58
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/im/tb.v|
+!i113 1
+R6
+R7
+vtb_rf
+R0
+!i10b 1
+!s100 VOBSGg<C4K6`A^mWCf9:Z2
+R1
+InHd^6>g28j>chS0?PC7ne2
+R2
+R3
+w1696740563
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/tb.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/tb.v
+!i122 1436
+L0 1 95
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/rf/tb.v|
+!i113 1
+R6
+R7
+vtop
+R8
+!i10b 1
+!s100 P?oH2[?>:;aXMjFig^9KZ0
+R1
+IGzac=5AQ_hfka6Nm[kc?n0
+R2
+R3
+w1697395001
+8C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/top.v
+FC:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/top.v
+!i122 1443
+L0 7 114
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dvire/OneDrive/Desktop/modelsim_projects/sc_mips/top/top.v|
+!i113 1
+R6
+R7

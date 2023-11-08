@@ -1,0 +1,54 @@
+A single-cycle MIPS processor verilog code:
+
+Million instructions per second (MIPS) is a measure of a processor's speed,
+providing a standard for representing the number of instructions that a central processing unit (CPU) can process in 1 second.
+
+
+My mips will provide a set architecture with 9 architecture - the goal is to perform the next instructions at least one time correctly: 
+	0: R_type: add
+	1: R_type: sub
+	2: R_type: and
+	3: R_type: or
+	4: R_type: slt
+	5: I_type: lw
+  	6: I_type: sw
+	7: I_type: beq not
+	8: I_type: beq
+	
+each instruction is 32 bits wide.  We want to have byte addressability, so our instruction memory can contain 2^30x 32 words, 
+but as we said, we will use 8 instructions.
+
+As we can see, we have two types of instructions: 
+R_type: for arithmetic instructions
+I_type: can be either Load_from_data_memory_to_register_file/Store_register_data_to_data_memory instruction or 
+		Branch operations(Jump to an instruction that is not necessarily the next in the instruction memory).
+
+each instruction will be completed in less than a single cycle clock period 
+(the clock cycle period was determined according to the longest route in the mips).
+
+		
+the mips code contains 7 modules: testbench, top, instruction memory, register file, ALU, Data memory, controller.
+the function of each module is explained in the module itself.
+
+Code construction order:
+	1. build each inside module (instruction memory, register file, ALU, Data memory, controller).
+	2. for each inside module build a testbench with a simple verificaiton environment inside to check that the design work well.
+	3. verify the testbench correctness by creating a wave form with the inputs, outputs and inside signals in the module.
+	4. build top module and repeat 2-3.
+	
+Attached to this file:
+ 1. All the modules+testbenches+waveforms in separate folders.
+ 2. mips architecture picture.
+ 3. A picture of the waveform of the top testbench to show correctness of the code (the signals in the picture are seperated by dividers 
+	to  distinguish between signals of each internal module and top module)
+ 4. mips architecture pdf detailed explanation.
+ 
+The code was written in Verilog language in the Modelsim simulator.
+
+
+
+	
+	
+	
+
+	
